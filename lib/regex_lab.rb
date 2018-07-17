@@ -8,7 +8,7 @@ end
 
 def words_five_letters_long(text)
   puts text
-  puts text.scan(/\w{5}\S/).to_s
+  puts text.scan(/\w{5}\W/).to_s
   text.scan(/\w{5}\W/)
 end
 
